@@ -8,6 +8,7 @@ git clone https://github.com/chandanpanda/fish
 
 # Step 3:
 chmod u+x fish/setup.sh
+
 .fish/setup.sh
 
 # Step 4:
