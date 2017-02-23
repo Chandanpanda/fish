@@ -6,8 +6,7 @@
 
 #setup.sh						#3
 cd fish
-chmod u+x install-gpu.sh
-./install-gpu.sh
+install-gpu.sh
 
 #enter password						#4
 
