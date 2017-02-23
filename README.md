@@ -9,7 +9,8 @@ git clone https://github.com/chandanpanda/fish
 # Step 3:
 chmod u+x fish/*.*
 
-.fish/start.sh
+
+fish/start.sh
 
 # Step 4:
 Enter password
