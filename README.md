@@ -14,26 +14,45 @@ Enter password
 
 # Step 4:
 sudo apt install python-pip
+
 Enter Y
+
 pip install kaggle-cli
+
 sudo apt-get install unzip
+
 kg config -g -u "ChandanPanda2006" -p "Passw0rd" -c "the-nature-conservancy-fisheries-monitoring"
+
 kg download
+
 mkdir train
+
 unzip train.zip  
+
 mkdir test
+
 unzip test_stg1.zip 
+
 mv test_stg1 test 
+
 mkdir results
+
 mkdir valid
+
 rm -rf train/__MACOSX
+
 rm train/.DS_Store
+
 rm -rf test/__MACOSX
+
 rm test/.DS_Store
+
 
 # Step 5:
 tmux
+
 Ctrl + b , %
+
 
 # Step 6:
 jupyter notebook
