@@ -7,7 +7,7 @@ ssh -i /home/chapanda/.ssh/aws-key-fast-ai.pem ubuntu@ec2-35-162-100-200.us-west
 git clone https://github.com/chandanpanda/fish	
 
 # Step 3:
-chmod u+x fish/start.sh
+chmod u+x fish/*.*
 
 .fish/start.sh
 
