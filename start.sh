@@ -6,7 +6,7 @@
 
 #setup.sh						#3
 cd fish
-install-gpu.sh
+./install-gpu.sh
 
 #enter password						#4
 
