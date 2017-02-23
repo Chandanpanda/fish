@@ -8,9 +8,9 @@ git clone https://github.com/chandanpanda/fish
 
 # Step 3:
 chmod u+x fish/*.*
-
-
-fish/start.sh
+cd fish
+./install-gpu.sh
+./start.sh
 
 # Step 4:
 Enter password
