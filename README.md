@@ -50,10 +50,15 @@ Ctrl + b , %
 
 
 # Step 6:
-pip install backports.shutil_get_terminal_size
+conda config --add channels conda-forge
+conda install backports.shutil_get_terminal_size
 jupyter notebook
 
 # Step 7:
 Open URL in browser
 ec2-XX-XX-XXX-XX.us-west-2.compute.amazonaws.com:8888
+
+git add ...
+git commit -m "..."
+git push origin master
 
