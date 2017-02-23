@@ -5,8 +5,6 @@
 #git clone https://github.com/chandanpanda/fish		#2
 
 #setup.sh						#3
-cd fish
-./install-gpu.sh
 
 #enter password						#4
 
