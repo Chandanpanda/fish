@@ -56,3 +56,8 @@ Ctrl + b , %
 
 # Step 6:
 jupyter notebook
+
+# Step 7:
+Open URL in browser
+ec2-XX-XX-XXX-XX.us-west-2.compute.amazonaws.com:8888
+
