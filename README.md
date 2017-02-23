@@ -11,6 +11,7 @@ chmod u+x fish/*.*
 cd fish
 ./install-gpu.sh
 Enter password
+cd ..
 
 # Step 4:
 sudo apt install python-pip
