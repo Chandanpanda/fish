@@ -10,16 +10,14 @@ git clone https://github.com/chandanpanda/fish
 chmod u+x fish/*.*
 cd fish
 ./install-gpu.sh
-./start.sh
-
-# Step 4:
 Enter password
-
-# Step 5:
 Enter Y
 
-# Step 6:
+# Step 4:
+./start.sh
+
+# Step 5:
 Ctrl + b , %
 
-# Step 7:
+# Step 6:
 jupyter notebook
