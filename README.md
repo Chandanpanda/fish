@@ -25,15 +25,11 @@ kg config -g -u "ChandanPanda2006" -p "Passw0rd" -c "the-nature-conservancy-fish
 
 kg download
 
-mkdir train
-
 unzip train.zip  
 
 mkdir test
 
-unzip test_stg1.zip 
-
-mv test_stg1 test 
+unzip test_stg1.zip -d "test"
 
 mkdir results
 
@@ -43,9 +39,7 @@ rm -rf train/__MACOSX
 
 rm train/.DS_Store
 
-rm -rf test/__MACOSX
-
-rm test/.DS_Store
+rm -rf test/test_stg1/__MACOSX
 
 
 # Step 5:
