@@ -50,6 +50,7 @@ Ctrl + b , %
 
 
 # Step 6:
+pip install backports.shutil_get_terminal_size
 jupyter notebook
 
 # Step 7:
