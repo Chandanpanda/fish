@@ -5,6 +5,8 @@ ssh -i /home/chapanda/.ssh/aws-key-fast-ai.pem ubuntu@ec2-52-41-99-115.us-west-2
 
 # Step 2:
 git clone https://github.com/chandanpanda/fish	
+chmod u+x fish/*.*
+./fish/install-gpu.sh
 
 # Step 3
 
