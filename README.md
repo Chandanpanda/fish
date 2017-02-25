@@ -1,4 +1,4 @@
-# fish - Seven steps to use my deep learning server (20 mins)
+# fish - Seven steps to use my deep learning server (2 mins)
 
 # Step 1:
 ssh -i /home/chapanda/.ssh/aws-key-fast-ai.pem ubuntu@ec2-52-41-99-115.us-west-2.compute.amazonaws.com
@@ -15,8 +15,6 @@ sudo apt-get install unzip
 kg config -g -u "ChandanPanda2006" -p "Passw0rd" -c "the-nature-conservancy-fisheries-monitoring"
 
 kg download
-
-# Step 4 
 
 unzip train.zip  
 
@@ -35,18 +33,20 @@ rm train/.DS_Store
 rm -rf test/test_stg1/__MACOSX
 
 
-# Step 5:
+# Step 4:
 tmux
 
 Ctrl + b , %
 
 
-# Step 6:
+# Step 5:
 jupyter notebook
 
-# Step 7:
+# Step 6:
 Open URL in browser
 ec2-XX-XX-XXX-XX.us-west-2.compute.amazonaws.com:8888
+
+# Step 7 
 
 git add ...
 git commit -m "..."
