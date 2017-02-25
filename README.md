@@ -8,10 +8,8 @@ git clone https://github.com/chandanpanda/fish
 
 # Step 3:
 chmod u+x fish/*.*
-cd fish
-./install-gpu.sh
+./fish/install-gpu.sh
 Enter password
-cd ..
 
 # Step 4:
 sudo apt install python-pip
