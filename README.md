@@ -48,8 +48,7 @@ Ctrl + b , %
 
 
 # Step 6:
-conda config --add channels conda-forge
-conda install backports.shutil_get_terminal_size
+pip install backports.shutil_get_terminal_size
 jupyter notebook
 
 # Step 7:
