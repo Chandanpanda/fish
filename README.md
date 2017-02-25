@@ -50,6 +50,7 @@ ec2-XX-XX-XXX-XX.us-west-2.compute.amazonaws.com:8888
 
 # Step 7 
 
+git config --global user.name "user_name"
 git add ...
 git commit -m "..."
 git push origin master
