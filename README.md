@@ -50,6 +50,8 @@ ec2-XX-XX-XXX-XX.us-west-2.compute.amazonaws.com:8888
 
 # Step 7 
 
+rsync -avp --progress aws-p2:~/dogs-cats-redux/models/dogs-cats-redux-model.h5
+
 git config --global user.name "user_name"
 git add ...
 git commit -m "..."
