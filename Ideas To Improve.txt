@@ -1,0 +1,14 @@
+Week Starting 2/27
+
+0. Write fish from scratch
+1. Create better validation set - done
+2. Use data  augmentation .. +channel augmentation - done
+3. Learning Rate
+4. Add regularization/dropout
+5. Pseudo labeling
+
+Later
+
+1. Batch Normalization - Done
+2. Use architectures that generalize well
+3. Reduce architecture complexity
