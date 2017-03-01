@@ -1,11 +1,12 @@
 Week Starting 2/27
 
-0. Write fish from scratch
-1. Create better validation set - done
-2. Use data  augmentation .. +channel augmentation - done
-3. Learning Rate
-4. Add regularization/dropout
-5. Pseudo labeling
+0. Write fish from scratch - done
+1. Create better validation set - in progress
+2. Add bounding data
+3. Use data  augmentation .. +channel augmentation - done
+4. Learning Rate
+5. Add regularization/dropout
+6. Pseudo labeling
 
 Later
 
