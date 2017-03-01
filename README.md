@@ -9,6 +9,7 @@ chmod u+x fish/*.*
 
 # Step 3
 pip install kaggle-cli
+
 sudo dpkg --configure -a
 sudo apt-get install unzip
 
