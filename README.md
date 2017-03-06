@@ -36,6 +36,8 @@ rm train/.DS_Store
 
 rm -rf test/test_stg1/__MACOSX
 
+conda install opencv
+
 # Step 4:
 tmux
 
@@ -50,5 +52,5 @@ ec2-XX-XX-XXX-XX.us-west-2.compute.amazonaws.com:8888
 
 # Step 7 
 
-zip myData.zip "file1" ...
-download file
+#scp -i aws_eu.pem unet_42quality.hdf5  ubuntu@ec2-34-248-60-241.eu-west-1.compute.amazonaws.com:~/fish/
+#scp -i aws_eu.pem ubuntu@ec2-34-248-60-241.eu-west-1.compute.amazonaws.com:~/fish/filename filename
