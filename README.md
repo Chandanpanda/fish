@@ -10,9 +10,9 @@ chmod u+x fish/*.*
 # Step 3
 pip install kaggle-cli
 
-reboot
+./fish/install-gpu.sh
 
-sudo dpkg --configure -a
+reboot
 
 sudo apt-get install unzip
 
