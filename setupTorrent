@@ -1,0 +1,15 @@
+reboot
+sudo dpkg --configure -a
+sudo apt update
+sudo apt upgrade
+sudo apt install transmission-cli transmission-daemon
+sudo /etc/init.d/transmission-daemon stop
+sudo nano /etc/transmission-daemon/settings.json
+  “download-dir”: “/home/ubuntu/Downloads”
+  “rpc-password”: “mysecretpassword” 
+  “rpc-whitelist-enabled”: false
+mkdir /home/ubuntu/Downloads/
+sudo chown ubuntu:debian-transmission /home/ubuntu/Downloads/
+sudo chmod g+w /home/ubuntu/Downloads/
+
+DNS URL:9091
