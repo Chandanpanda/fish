@@ -13,3 +13,6 @@ sudo chown ubuntu:debian-transmission /home/ubuntu/Downloads/
 sudo chmod g+w /home/ubuntu/Downloads/
 
 DNS URL:9091
+
+sudo apt install unzip
+unzip -l yourzipfile.zip
