@@ -44,7 +44,7 @@ tmux
 Ctrl + b , %
 
 # Step 5:
-jupyter notebook
+jupyter notebook dl_course
 
 # Step 6:
 Open URL in browser
