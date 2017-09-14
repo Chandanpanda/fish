@@ -1,0 +1,27 @@
+#!/bin/bash
+
+sudo mkdir /cataract
+sudo mount /dev/xvdf1 /cataract
+sudo mkdir /cataract2
+sudo mount /dev/xvdg1 /cataract2
+sudo mkdir /cataract3
+sudo mount /dev/xvdh1 /cataract3
+sudo mkdir /cataract4
+sudo mount /dev/xvdi1 /cataract4
+
+pip install tqdm
+pip install imageio
+pip install moviepy
+pip install fbpca
+
+pip uninstall -y pillow
+CC="cc -mavx2"
+pip install -U --force-reinstall pillow-simd
+
+pip install git+git://github.com/fchollet/keras.git --upgrade
+
+conda install theano pygpu
+
+cd /cataract/home/ubuntu/cataract
+
+jupyter notebook
