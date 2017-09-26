@@ -23,5 +23,6 @@ pip install git+git://github.com/fchollet/keras.git --upgrade
 conda install theano pygpu
 
 cd /cataract/home/ubuntu/cataract
+pip install keras==2.0
 
 jupyter notebook
