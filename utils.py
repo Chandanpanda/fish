@@ -39,10 +39,10 @@ from keras.models import Sequential, Model
 from keras.layers import Input, Embedding, Reshape, merge, LSTM, Bidirectional
 from keras.layers import TimeDistributed, Activation, SimpleRNN, GRU
 from keras.layers.core import Flatten, Dense, Dropout, Lambda
-from keras.regularizers import l2, activity_l2, l1, activity_l1
+from keras.regularizers import l2 #, activity_l2, l1, activity_l1
 from keras.layers.normalization import BatchNormalization
 from keras.optimizers import SGD, RMSprop, Adam
-from keras.utils.layer_utils import layer_from_config
+#from keras.utils.layer_utils import layer_from_config
 from keras.metrics import categorical_crossentropy, categorical_accuracy
 from keras.layers.convolutional import *
 from keras.preprocessing import image, sequence
@@ -109,10 +109,10 @@ def wrap_config(layer):
     return {'class_name': layer.__class__.__name__, 'config': layer.get_config()}
 
 
-def copy_layer(layer): return layer_from_config(wrap_config(layer))
+#def copy_layer(layer): return layer_from_config(wrap_config(layer))
 
 
-def copy_layers(layers): return [copy_layer(layer) for layer in layers]
+#def copy_layers(layers): return [copy_layer(layer) for layer in layers]
 
 
 def copy_weights(from_layers, to_layers):
@@ -120,10 +120,10 @@ def copy_weights(from_layers, to_layers):
         to_layer.set_weights(from_layer.get_weights())
 
 
-def copy_model(m):
-    res = Sequential(copy_layers(m.layers))
-    copy_weights(m.layers, res.layers)
-    return res
+#def copy_model(m):
+#    res = Sequential(copy_layers(m.layers))
+#    copy_weights(m.layers, res.layers)
+#    return res
 
 
 def insert_layer(model, new_layer, index):
