@@ -1,13 +1,7 @@
 #!/bin/bash
 
-sudo mkdir /cataract
-sudo mount /dev/xvdf1 /cataract
-sudo mkdir /cataract2
-sudo mount /dev/xvdg1 /cataract2
-sudo mkdir /cataract3
-sudo mount /dev/xvdh1 /cataract3
-sudo mkdir /cataract4
-sudo mount /dev/xvdi1 /cataract4
+sudo mkdir /cat
+sudo mount /dev/xvdf1 /cat
 
 pip install tqdm
 pip install imageio
@@ -22,7 +16,7 @@ pip install git+git://github.com/fchollet/keras.git --upgrade
 
 conda install theano pygpu
 
-cd /cataract/home/ubuntu/cataract
+cd /cat/home/ubuntu/cat
 pip install keras==2.08
 
 jupyter notebook
