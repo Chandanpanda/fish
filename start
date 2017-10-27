@@ -22,6 +22,7 @@ pip install -U --force-reinstall pillow-simd
 #pip install git+git://github.com/fchollet/keras.git --upgrade
 
 sudo apt-get install cuda
+pip install tensorflow
 
 conda install theano pygpu
 
