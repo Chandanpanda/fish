@@ -19,8 +19,9 @@ pip uninstall -y pillow
 CC="cc -mavx2"
 pip install -U --force-reinstall pillow-simd
 
-pip install git+git://github.com/fchollet/keras.git --upgrade
+#pip install git+git://github.com/fchollet/keras.git --upgrade
 
+sudo apt-get install cuda
 
 conda install theano pygpu
 
