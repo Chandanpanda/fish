@@ -43,7 +43,7 @@ sudo chmod a+r /usr/local/cuda-8.0/lib64/libcudnn*
 export PATH=/usr/local/cuda-8.0/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 
-pip install tensorflow-gpu
+pip install tensorflow
 
 cd /cat/home/ubuntu/cat
 pip install keras==2.0.8
