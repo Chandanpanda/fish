@@ -6,7 +6,7 @@ sudo mkdir /cat2
 sudo mount /dev/xvdg1 /cat2
 sudo mkdir /cat3
 sudo mount /dev/xvdh1 /cat3
-sudo mkdir /cat
+sudo mkdir /cat4
 sudo mount /dev/xvdi1 /cat4
 
 
