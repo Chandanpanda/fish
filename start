@@ -29,4 +29,6 @@ conda install theano pygpu
 cd /cat/home/ubuntu/cat
 pip install keras==2.0.8
 
+KERAS_BACKEND=tensorflow python -c "from keras import backend"
+
 jupyter notebook
