@@ -11,20 +11,20 @@ sudo mount /dev/xvdi1 /cat4
 
 
 pip install tqdm
-#pip install imageio
-#pip install moviepy
-#pip install fbpca
+pip install imageio
+pip install moviepy
+pip install fbpca
 
-#pip uninstall -y pillow
-#CC="cc -mavx2"
-#pip install -U --force-reinstall pillow-simd
+pip uninstall -y pillow
+CC="cc -mavx2"
+pip install -U --force-reinstall pillow-simd
 
-#pip install git+git://github.com/fchollet/keras.git --upgrade
+pip install git+git://github.com/fchollet/keras.git --upgrade
 
 
-#conda install theano pygpu
+conda install theano pygpu
 
 cd /cat/home/ubuntu/cat
-#pip install keras==2.0.8
+pip install keras==2.0.8
 
 jupyter notebook
