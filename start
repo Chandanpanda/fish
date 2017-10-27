@@ -2,6 +2,13 @@
 
 sudo mkdir /cat
 sudo mount /dev/xvdf1 /cat
+sudo mkdir /cat2
+sudo mount /dev/xvdg1 /cat2
+sudo mkdir /cat3
+sudo mount /dev/xvdh1 /cat3
+sudo mkdir /cat
+sudo mount /dev/xvdi1 /cat4
+
 
 pip install tqdm
 pip install imageio
@@ -12,11 +19,11 @@ pip uninstall -y pillow
 CC="cc -mavx2"
 pip install -U --force-reinstall pillow-simd
 
-pip install git+git://github.com/fchollet/keras.git --upgrade
+#pip install git+git://github.com/fchollet/keras.git --upgrade
 
-conda install theano pygpu
+#conda install theano pygpu
 
 cd /cat/home/ubuntu/cat
-pip install keras==2.0.8
+#pip install keras==2.0.8
 
 jupyter notebook
