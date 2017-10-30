@@ -21,7 +21,7 @@ pip install -U --force-reinstall pillow-simd
 
 #bleeding edge
 #pip install git+git://github.com/fchollet/keras.git --upgrade
-conda install theano pygpu
+
 
 # install CUDA Toolkit v8.0
 # instructions from https://developer.nvidia.com/cuda-downloads (linux -> x86_64 -> Ubuntu -> 16.04 -> deb (network))
@@ -38,6 +38,8 @@ tar -xzvf ${CUDNN_TAR_FILE}
 sudo cp -P cuda/include/cudnn.h /usr/local/cuda-8.0/include
 sudo cp -P cuda/lib64/libcudnn* /usr/local/cuda-8.0/lib64/
 sudo chmod a+r /usr/local/cuda-8.0/lib64/libcudnn*
+
+conda install theano 
 
 # set environment variables
 export PATH=/usr/local/cuda-8.0/bin${PATH:+:${PATH}}
