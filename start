@@ -13,10 +13,7 @@ KERAS_BACKEND=tensorflow python -c "from keras import backend"
 
 
 sudo mkdir /cat
-sudo mkdir /cat4
-
 sudo mount /dev/xvdf1 /cat
-sudo mount /dev/xvdg1 /cat4
 
 pip install --ignore-installed --upgrade tensorflow-gpu
 
