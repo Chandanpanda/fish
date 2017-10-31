@@ -1,21 +1,11 @@
 #!/bin/bash
-
 export PATH=/usr/local/cuda-8.0/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
-
-
 pip install tensorflow
-
 pip install keras==2.0.8
-
-
 KERAS_BACKEND=tensorflow python -c "from keras import backend"
-
-
 sudo mkdir /cat
 sudo mount /dev/xvdf1 /cat
-
 pip install --ignore-installed --upgrade tensorflow-gpu
-
 mv /home/ubuntu/.keras/keras.json /home/ubuntu/.keras/keras_bak.json
 mv fish/keras.json /home/ubuntu/.keras/keras.json
