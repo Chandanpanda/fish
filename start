@@ -14,7 +14,7 @@ sudo chmod a+r /usr/local/cuda-8.0/lib64/libcudnn*
 sudo mkdir /cat
 sudo mount /dev/xvdf1 /cat
 mv /home/ubuntu/.keras/keras.json /home/ubuntu/.keras/keras_bak.json
-mv fish/keras.json /home/ubuntu/.keras/keras.json
+mv /home/ubuntu/fish/keras.json /home/ubuntu/.keras/keras.json
 cd /home/ubuntu/anaconda2/lib/python2.7/site-packages/keras/engine
 rm topology.pyc
 rm topology.py
